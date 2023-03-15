@@ -13,15 +13,16 @@
         <header class="headercontainer">
             <a href="#" class="heromain">
                
-                <h1>Herman Botshelo Ngwenya</h1>
+                <h2>Herman Botshelo Ngwenya</h2>
             </a>
             <div class="menu" onclick="menu();"></div>
             <nav class="navigation bar">
                 <ul class="menurow">
-                    <li><a href="#education">Home</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#">GitHub</a></li>
                 </ul>
             </nav>
@@ -30,24 +31,115 @@
 
         <section class="herocontainer">
             <div class="headtext">
-                <h1>Herman Botshelo Ngwenya</h1>
-                <p>Software Developer  </p>
-                <p>Software Engineering Student at Codespace, BafokengCodelab. An Insipiring Innovator, Creative and Artist.</p>
+                <h1 id="home">Herman Botshelo Ngwenya</h1>
+                <h3>Software Developer</h3>
+                <p>Software Engineering Student at Codespace, BafokengCodelab.<br> An Insipiring Innovator, Creative and Artist.</p>
             </div>
             <div class="image">
                 <img src="images/images.jpg" alt="hero" width="700px" height="700px">  
             </div>
-
         </section>
+
         <section>
             <div class="images">
-                <img href=""
+                <image src="./images/engineering2.jpg" alt>
+                <image src="./images/music-production-equipment-1536x1024.jpg.webp" alt="">
+                <image src="images/softwaredevelopment2.webp" alt="">
             </div>
         </section>
+        <br>
+    <div class="contentcontainer">
         <section class="education">
             <h1 id="education"> Education </h1>
 
+            <h3>Rustenburg Technical High School</h3>
+            <p> 2016 </p>
+            <p> Grade 12</p>
+            <p> National Senior Certificate</p>
+        
+        <br>
+            <h3>Johannesburg Intitution of Engineering and Technology</h3>
+            <p> 2019 </p>
+            <p> Sound Engineering</p>
+            <p> NQF Level 4</p>
+
+        <br>
+            <h3>Codespace BafokengCodelab</h3>
+            <p> Currently</p>
+            <p> Software Development</p>
         </section>
+        <br>
+        <section>
+            <h1 id="experience">Work Experience</h1>
+            <h3>President Mangope Techical High School</h3>
+            <p>07-12-2020 - 31-03-2021</p>
+            <p>Educators Assistant</p>
+            <p>Prepared the classroom for teaching and learning.<br>Ensured that teaching materials are available and ready for use.<br>Prepared marksheets, and captured marks<br>Helped learners with their educational and social development.<br>Oversaw learners out of the classroom and during lunchbreaks.<br>Supervise group activities of learners and carry out admin tasks required by the school.</p>
+            <br>
+            <h3>Royal Bafokeng Platinum Mine</h3>
+            <p>2017-12 - 2018-01</p>
+            <p>Administration Assistant</p>
+            <p>Handled office tasks, such as filling, generating reports.<br>Data capturing<br>Assisted in administrative functions for meeting and packing of archive files.</p>
+            <br>
+            <h3>Verimark</h3>
+            <p>2021-June - 2021-October</p>
+            <p>Sales Demonstrator and Product Specialist</p>
+            <p>Served customers by selling products and meeting customer needs.<br>Worked in marketing and sales.</p>
+        </section>
+
+        <section class="Skills">
+            <h1 id="skills">Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Scratch</li>
+                <li>GitHub</li>
+                <li>Visual Studio Code</li>
+                <li>Basic Computer Skills</li>
+                <li>Typing</li>
+                <p>Other Skills</p>
+                <li>Music Production</li>
+                <li>Sound Engineering</li>
+            </ul>
+        </section>
+    </div>
+        <footer>
+            <h1 id="contact">Contact Details</h1>
+
+
+            <div class="form-1">
+                <form action="https://formsubmit.co/hermanbngwenya@gmail.com" target="_blank" method="post">
+                    <h3>Contact Me</h3>
+                    <div>
+                    <select name="emailsubject">
+                        <option value="emailsubjects" required >Select Option---</option>
+                        <option value="enquiry">Enquiry</option>
+                        <option value="jobopportunity">Job Opportunity</option>
+                        <option value="businessproposal">Business Proposal</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="websitefeedback">Website Feedback</option>
+                    </select>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                        </div>
+            
+                        <div>
+                        <label for="number">Phone No.:</label>
+                        <input type="number" id="number" name="Number" required>
+                        </div>
+            
+                        <div>
+                        <textarea name="comment" id="comment" rows="10" cols="32" optional placeholder="Optional,Comment Here..."></textarea>
+                        </div>
+                        
+                        <input type="submit">
+                    </form>
+                </div>
+
+        </footer>
     </body>
 
 

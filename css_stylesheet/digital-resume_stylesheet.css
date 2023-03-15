@@ -15,9 +15,10 @@ ul {
 
 img {
     width: 500px;
-    height: 500px;
+    height: 510px;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 105px;
+    margin-left: 0;
 }
 
 .headercontainer {
@@ -42,7 +43,6 @@ li {
 .herocontainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .heromain {
@@ -54,6 +54,25 @@ a:hover {
 }
 
 .headtext {
-     margin: 0;
+    margin-top: 250px;
     text-justify:newspaper ;
+    font-size: x-large;
+    background-color:  rgb(250, 235, 215);
+    padding-left: 100px;
 }
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.contentcontainer {
+    background: linear-gradient(100deg, rgb(236, 133, 81),);
+}
+
