@@ -76,3 +76,63 @@ h1{
     background: linear-gradient(100deg, rgb(236, 133, 81),);
 }
 
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+select {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: black;
+    outline: none;
+    background: transparent;
+    border: 2px solid black;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text ;
+    transition: 0.2s;
+}
+
+input:focus~label,
+input:valid~label ,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.7),#c7cf33 ) , url(/images/softwaredevelopment.webp);
+      
+}

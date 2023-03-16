@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initail-scale=1.0">
         <title>My Digital Resume</title>
         <link rel="stylesheet" type="text/css" href="css_stylesheet/digital-resume_stylesheet.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     </head>
 
     <body>
@@ -107,9 +109,10 @@
             <h1 id="contact">Contact Details</h1>
 
 
-            <div class="form-1">
-                <form action="https://formsubmit.co/hermanbngwenya@gmail.com" target="_blank" method="post">
-                    <h3>Contact Me</h3>
+            <div class="form-container">
+                <div class="form">
+                    <form action="https://formsubmit.co/hermanbngwenya@gmail.com" target="_blank" method="post">
+                        <h3>Contact Me</h3>
                     <div>
                     <select name="emailsubject">
                         <option value="emailsubjects" required >Select Option---</option>
@@ -121,24 +124,36 @@
                     </select>
                     </div>
 
-                    <div>
-                        <label for="email">Email:</label>
+                    <div class="input-group">
+                        <input type="name"id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+
+                    <div class="input-group">
                         <input type="email" id="email" required>
-                        </div>
+                        <label for="email">Email</label>
+                    </div>
             
-                        <div>
-                        <label for="number">Phone No.:</label>
+                    <div class="input-group">
                         <input type="number" id="number" name="Number" required>
-                        </div>
+                        <label for="number">Phone Number</label>
+                    </div>
             
-                        <div>
-                        <textarea name="comment" id="comment" rows="10" cols="32" optional placeholder="Optional,Comment Here..."></textarea>
-                        </div>
-                        
+                    <div class="input-group">
+                        <textarea name="comment" id="comment" rows="10" cols="32" required></textarea>
+                        <label for=" comment">Comment</label>
+                    </div>
                         <input type="submit">
+            
                     </form>
                 </div>
+            </div>
+        <br>
+                    <div class="social-media">
+                        <a target="_blank" href="https://za.linkedin.com/in/herman-ngwenya2302" href="#"></a>
+                        <box-icon type='logo' name='linkedin'></box-icon>
 
+                    </div>
         </footer>
     </body>
 
