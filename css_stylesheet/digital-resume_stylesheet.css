@@ -209,20 +209,65 @@ i:hover {
 
 /*deives smaller than 600px*/
 @media screen and (min-width:300px) {
+    body {
+        font-size: 10px;
+        background-color:  rgb(165, 165, 153);
+    }
+    img{
+        width: 150px;
+        height: 160px
+    }
+    form {
+        
+    }
+
     
 }
 
 /*small devices (potrait tablets and large phones,600px and up)*/
 @media screen and (min-width: 600px){
+    body {
+        font-size: 15px;
+        background-color:  rgb(189, 189, 175);
+    }
+    img {
+        width: 200px;
+        height: 210px;
+    }
+    form {
+        width: 20%;
+    }
 
 }
 
 /*medium devices (landscape tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 20px;
+        background-color:  rgb(188, 188, 160);
+    }
+    img{
+        width: 300px;
+        height: 310px;
+    }
+    form{
+        width: 50%;
+    }
 
 }
 
 /*large devices (laptops/desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-    
+    body {
+        font-size: 22px;
+        background-color: rgb(251, 251, 231);
+    }
+
+    img {
+        width: 500;
+        height: 510px;
+    }
+    form {
+        width:100%
+    }
 }
