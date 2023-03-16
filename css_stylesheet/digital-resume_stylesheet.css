@@ -1,12 +1,12 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background: linear-gradient(100deg,rgb(156, 121, 121),rgb(105, 43, 43)58.79%);
+    background-color: rgb(251, 251, 231);
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(31, 72, 19);
 }
 
 ul {
@@ -21,10 +21,15 @@ img {
     margin-left: 0;
 }
 
+#home {
+    font-size: xx-large;
+    color: darkgoldenrod;
+}
+
 .headercontainer {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(250, 235, 215);
+    background-color: rgb(220, 250, 215);
     
 }
 
@@ -57,7 +62,7 @@ a:hover {
     margin-top: 250px;
     text-justify:newspaper ;
     font-size: x-large;
-    background-color:  rgb(250, 235, 215);
+    background-color:  rgb(25, 59, 45);
     padding-left: 100px;
 }
 
@@ -72,8 +77,10 @@ h1{
     font-weight: 700;
 }
 
-.contentcontainer {
-    background: linear-gradient(100deg, rgb(236, 133, 81),);
+
+.skills-items{
+    display: grid;
+    grid-template-columns: repeat(2);
 }
 
 .form-container {
@@ -132,7 +139,25 @@ textarea:valid~label {
     top: -35px;
     font-size: 14px;
 }
+
 footer{
-    background-image:linear-gradient(rgba(0,0,0,0.7),#c7cf33 ) , url(/images/softwaredevelopment.webp);
-      
+    margin-top: 30px;
+    background-color: rgb(12, 124, 87);
+    padding-top: 2%;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-icons{
+    width: 200px;
+    font-size: xx-large;
+    transition: 0.2s;
+   
+}
+#social-icons:hover {
+    color: black;
 }
